@@ -23,10 +23,10 @@ document.getElementById("search").addEventListener("keyup", function(event) {
 });
 
 document.getElementById("number").addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) {
-        event.preventDefault();
-        document.getElementById("enter").click();
-       }
+     if (event.keyCode === 13) {
+         event.preventDefault();
+         document.getElementById("enter").click();
+        }
 });
 
 
